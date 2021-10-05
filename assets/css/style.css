@@ -1,0 +1,67 @@
+
+/*Home page body section start*/
+
+.home__page{
+    background-image: url("../image/homepage-background.png");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: top left;
+}
+
+.home__page__body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home__page__body .logo{
+    margin-top: 150px;
+}
+
+.background-overlay{
+    background: rgba(0,0,0, 0.1);
+    height: 1500px;
+}
+
+.home__page__body .logo img{
+    width: 200px;
+    height: 150px;
+}
+
+.my-card{
+    height: 98px;
+    background: #F6F6FE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #1223BD26;
+    border: 5px solid #FFFFFF;
+    border-radius: 15px;
+    opacity: 1;
+    margin: 20px 0px;
+}
+.my-card .my-card__text{
+    text-align: center;
+    font: normal normal 600 28px/34px Gilroy ☞;
+    letter-spacing: 0px;
+    padding-top: 29px;
+}
+.my-card .my-card__text .my-card__link{
+    color: #707070;
+    text-decoration: none;
+}
+.my-card .my-card__text .my-card__link:hover{
+    text-decoration: none;
+}
+
+/*Home page body section end*/
+
+/*footer section start*/
+.footer{
+    height: auto;
+    width: 100%;
+    color: #00569fa1;
+    background: #fff;
+}
+
+.footer p{
+    font-weight: bold;
+    font-size: 20px;
+}
+/*footer section end*/
