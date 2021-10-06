@@ -1,7 +1,10 @@
 
 
 /*=============== Center details css start============== */
-
+.center-header{
+    background-color: #FFFFFF;
+padding: 10px;
+}
 
 .card-title1{
     background-color: #F6F5FD;
