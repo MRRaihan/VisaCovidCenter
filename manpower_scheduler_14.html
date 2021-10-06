@@ -9,7 +9,7 @@
     <title>CV | Manpower Scheduler</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container vsx">
         <div class="row col-md-12">
             <div class="table-cal">
                 <div class="cal-main">
@@ -90,8 +90,8 @@
                         <div class="cal-morning-slot">
                             <p class="morning">Morning Slot</p>
                             <div class="cal-morn-in">
-                                <input type="text" class="cal-morn-in-left" placeholder="9:45 AM"> -
-                                <input type="text" class="cal-morn-in-left" placeholder="12:00 PM">
+                                <input type="time" class="cal-morn-in-left" placeholder="9:45 AM"> -
+                                <input type="time" class="cal-morn-in-left" placeholder="12:00 PM">
                             </div>
                             <p class="cal-footer">Working period: 545 Minutes</p>
                         </div>
@@ -99,8 +99,8 @@
                         <div class="cal-day-slot">
                             <p class="day">Day Slot</p>
                             <div class="cal-day-in">
-                                <input type="text" class="cal-morn-day-right" placeholder="9:45 AM"> -
-                                <input type="text" class="cal-morn-day-right" placeholder="12:00 PM">
+                                <input type="time" class="cal-morn-day-right" placeholder="9:45 AM"> -
+                                <input type="time" class="cal-morn-day-right" placeholder="12:00 PM">
                             </div>
                             <p class="cal-footer">Working period: 135 Minutes</p>
 
@@ -130,31 +130,50 @@
                     </div>
 
                     <div class="cal-service-slot row">
-                        <div class="cal-x col-md-4">
-                            <ul class="cal-x-y">
-                                <li class="cal-x-y-z" colspan="2">Service</li>
-                                <li class="cal-x-y-z">gd</li>
-                                <li class="cal-x-y-z">gd</li>
-                            </ul>
-                        </div>
-                        <div class="cal-x col-md-4">
-                            <ul class="cal-x-y">
-                                <li class="cal-x-y-z">Estimated time</li>
-                                <li class="cal-x-y-z">gd</li>
-                                <li class="cal-x-y-z">gd</li>
-                                <li class="cal-x-y-z">gd</li>
-                            </ul>
-                        </div>
-                        <div class="cal-x col-md-4">
-                            <ul class="cal-x-y">
-                                <li class="cal-x-y-z">Max service</li>
-                                <li class="cal-x-y-z">gd</li>
-                                <li class="cal-x-y-z">gd</li>
-                                <li class="cal-x-y-z">gd</li>
-                            </ul>
-                        </div>
-                    </div>
+                        <table class="t-cal">
+                            <tr class="cal-mx-x">
+                                <td class="cal-x-y"><p class="p-mx"> <b>Service</b> </p></td>
+                                <td class="cal-x-y"><p class="p-mx"> <small>Estimated time</small><br><b>Per Process</b> </p></td>
+                                <td class="cal-x-y"><p class="p-mx"> <small>Max service</small><br><b>Per day</b> </p></td>
+                            </tr>
+                            <tr>
+                                <td class="cal-x-y"><p class="p-mx"> PCR </p></td>
+                                <td class="cal-x-y"><p class="p-mxx">20 <small class="s-cx">min</small></p></td>
+                                <td class="cal-x-y"><p class="p-mx"> 204 </p></td>
+                            </tr>
+                            <tr>
+                                <td class="cal-x-y"><p class="p-mx"> Vaccine </p></td>
+                                <td class="cal-x-y"><p class="p-mxx"> 15 <small class="s-cx">min</small></p></td>
+                                <td class="cal-x-y"><p class="p-mx"> 272 </p></td>
+                            </tr>
+                            <tr>
+                                <td class="cal-x-y"><p class="p-mx"> Booster </p></td>
+                                <td class="cal-x-y"><p class="p-mxx"> 15 <small class="s-cx">min</small> </p></td>
+                                <td class="cal-x-y"><p class="p-mx"> 272 </p></td>
+                            </tr>
+                            <tr class="cal-mx-x-i">
+                                <td></td>
+                                <td ><p class="p-mx">Average service per day </p></td>
+                                <td><p class="p-mx">249 </p></td>
+                               
+                            </tr>
+                            <tr class="cal-mx-x-p">
+                                <td></td>
+                                <td ><p class="p-mx">Want to service per day </p></td>
+                                <td><p class="p-mx y-s">230 </p></td>
+                               
+                            </tr>
 
+                        </table>
+                       
+                    </div>
+                   
+                    <div class="check-cal">
+                        <input type="checkbox" checked="checked" value="Bike" class="check-x"> Set this as default for everyday<br>
+                    </div>
+                    <div class="cal-save">
+                        <button class="cal-x-btn">Save</button>
+                    </div>
                 </div>
             </div>
         </div>
