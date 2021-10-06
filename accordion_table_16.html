@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/accordion_table_16.css">
+    <title>Accordion table page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item table-accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button table-accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span class="table-accordion-date">06-10-2021</span>
+                        <span class="table-accordion-people">490 People</span>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body table-accordion-body">
+                        <div class="table-accordion-div">
+                            <table class="table accordion-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">  <input type="checkbox" class="custom-control-input" id="customCheck1" checked></th>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Phone</th>
+                                        <th scope="col">Gender</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-row">
+                                        <td><input type="checkbox" class="custom-control-input" id="customCheck1"></td>
+                                        <td>345 234 124</td>
+                                        <td>Ahmed Abdali</td>
+                                        <td>018 2700 7441</td>
+                                        <td>Male</td>
+                                        <td class="enter-icon-div">
+                                                <a href="#">
+                                                    <img class="enter-icon" src="assets/image/enter.png" alt="">
+                                                </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox" class="custom-control-input" id="customCheck1" checked></td>
+                                        <td>345 234 124</td>
+                                        <td>Ahmed Abdali</td>
+                                        <td>018 2700 7441</td>
+                                        <td>Male</td>
+                                        <td class="enter-icon-div">
+                                                <a href="#">
+                                                    <img class="enter-icon" src="assets/image/enter.png" alt="">
+                                                </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox" class="custom-control-input" id="customCheck1" checked></td>
+                                        <td>345 234 124</td>
+                                        <td>Ahmed Abdali</td>
+                                        <td>018 2700 7441</td>
+                                        <td>Male</td>
+                                        <td class="enter-icon-div">
+                                                <a href="#">
+                                                    <img class="enter-icon" src="assets/image/enter.png" alt="">
+                                                </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item  table-accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button table-accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        <span class="table-accordion-date">06-10-2021</span>
+                        <span class="table-accordion-people">490 People</span>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item  table-accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button table-accordion-button collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        <span class="table-accordion-date">06-10-2021</span>
+                        <span class="table-accordion-people">490 People</span>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+</body>
+
+</html>
