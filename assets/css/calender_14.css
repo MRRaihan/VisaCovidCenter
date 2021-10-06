@@ -1,5 +1,8 @@
+.table-cal{
+    margin-left: 126px;
+}
 .cal-main{
-    width: 100%;
+    width: 80%;
     padding: 40px;
     margin-top: 80px;
     border-radius: 5px;
@@ -33,6 +36,7 @@
     margin-bottom: 20px;
     padding-top: 20px;
     font-size: 20px;
+    color: #448cf8;
 }
 .calender_14{
     width: 100%;
@@ -53,6 +57,7 @@
     border: none;
     margin-bottom: 20px;
     background: none;
+    color: #707070;
 }
 
 .cla-text{
@@ -60,6 +65,8 @@
     padding: 5px;
     border-radius: 3px;
     background-color: white;
+    color: #707070;
+    font-size:15px;
 }
 
 
@@ -78,16 +85,19 @@
     margin-left: 28px;
     margin-top: 20px;
     color: #707070;
-    font-size: 18px;
+    font-size:15px;
 }
 
 .cal-morn-in{
     margin-left: 28px;
 }
 .cal-morn-in-left{
-    
-   margin-bottom: 40px;
+    border: none;
+    box-shadow: 0 0  0 2px rgba(175, 198, 242, 0.227);
+    margin-bottom: 40px;
+    font-size: 15px;
     text-align: center;
+    width: 40%;
 }
 
 
@@ -102,7 +112,7 @@
 .day{
     margin-left: 28px;
     color: #707070;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 20px;
 }
 .cal-day-in{
@@ -110,12 +120,16 @@
 }  
 .cal-morn-day-right{
     margin-bottom: 40px;
+    width: 40%;
     text-align: center; 
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0  0 2px rgba(175, 198, 242, 0.227);
 }
 .cal-footer{
     color: #707070;
     margin-left: 28px; 
-    font-size: 20px;
+    font-size: 17px;
 }
 
 
@@ -123,6 +137,66 @@
     background-color: #EFEDF9;
     width: 40%;
     margin-top: 65px;
+    margin-top: 30px;
+    margin-left: 1px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0  0 2px rgba(175, 198, 242, 0.227);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
+.total{
+    list-style: none;
+   
+}
+.cal-min-l{
+    display: inline;
+    color: #707070;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.cal-min-m{
+    display: inline;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    color: #707070;
+    margin-right: 40px;
+}
+.cal-min-r{
+    display: inline;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    color: #707070;
+    margin-right: 40px;
+}
+.cal-min-t{
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
+
+.cal-service-slot {
+    width: 70%;
+    margin-right: 100px;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-top: 40px;
+    background-color: #EFEDF9;
+    box-shadow: 0 0  0 2px rgba(175, 198, 242, 0.227);
+}
+
+
+.cal-x-y{
+    list-style: none;
+}
+.cal-x-y-z{
+    font-size: 15px;
+    color: #707070;
+
+}
+
