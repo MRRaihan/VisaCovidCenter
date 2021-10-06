@@ -1,10 +1,10 @@
-.table-cal{
-   position: relative;
-   margin:0 120px;
-
+.vsx{
+    width: 900px;
+    justify-content: center;
+    align-items: center;
 }
 .cal-main{
-    width: 80%;
+    width: 100%;
     padding: 40px;
     margin-top: 80px;
     border-radius: 5px;
@@ -307,22 +307,4 @@
 }
 
 
-@media screen and (max-width:1100px) {
-    
-    .table-cal{
-        position: relative;
-        margin:0 10px !important;
-     }
-    
-    .cal-main{
-      width: 100%;
-    }
-    .cal-body{
-        width: 100%;
-    }
-    .calender_14 {
-        width: 0%;
-    }
-  }
-  
 
