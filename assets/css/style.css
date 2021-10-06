@@ -1,67 +1,80 @@
 
 /*Home page body section start*/
 
-.home__page{
-    background-image: url("../image/homepage-background.png");
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: top left;
+body{
+    background: #FAFAFC 0% 0% no-repeat;
+    box-sizing: border-box;
 }
 
-.home__page__body{
-    display: flex;
+.background-image {
+    margin-top: -205px;
+    margin-left: -600px;
+    width: 800px;
+    height: 800px;
+    opacity: 0.2;
+    transform: matrix(0.94, 0.34, -0.34, 0.94, 0, 0);
+}
+
+.showcase {
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    margin-top: -600px;
 }
-.home__page__body .logo{
+
+.logo-container {
     margin-top: 150px;
+    text-align: center;
 }
 
-.background-overlay{
-    background: rgba(0,0,0, 0.1);
-    height: 1500px;
-}
-
-.home__page__body .logo img{
+.logo {
     width: 200px;
     height: 150px;
 }
 
-.my-card{
-    height: 98px;
-    background: #F6F6FE 0% 0% no-repeat padding-box;
+.card-div{
+    margin: 25px auto;
+    justify-content: center;
+    width: 65%;
+    height: 100px;
+    background: #F6F6FE padding-box;
     box-shadow: 0px 3px 15px #1223BD26;
     border: 5px solid #FFFFFF;
     border-radius: 15px;
-    opacity: 1;
-    margin: 20px 0px;
+    cursor: pointer;
 }
-.my-card .my-card__text{
+
+.home-card {
+    margin: auto 0;
     text-align: center;
     font: normal normal 600 28px/34px Gilroy ☞;
     letter-spacing: 0px;
-    padding-top: 29px;
+    opacity: 1;
 }
-.my-card .my-card__text .my-card__link{
+
+.home-card a{
+    text-decoration: none;
     color: #707070;
-    text-decoration: none;
 }
-.my-card .my-card__text .my-card__link:hover{
+
+.home-card a:hover{
     text-decoration: none;
+    color: #707070;
 }
 
 /*Home page body section end*/
 
 /*footer section start*/
 .footer{
-    height: auto;
+    height: 107px;
     width: 100%;
     color: #00569fa1;
     background: #fff;
+    padding-top: 14px;
 }
 
 .footer p{
     font-weight: bold;
     font-size: 20px;
+    line-height: 24px;
 }
 /*footer section end*/
