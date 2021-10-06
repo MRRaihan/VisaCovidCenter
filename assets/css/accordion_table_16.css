@@ -15,8 +15,7 @@
 
 .accordion-table-breadcrumb .filter-buttons{
     padding: 5px;
-    width: 25%;
-    min-width: 310px;
+    width: 100%;
     background: #F3F1F9 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
@@ -32,7 +31,7 @@
    letter-spacing: 0px;
    color: #00569F;
    opacity: 0.8;
-   padding: 7px 15px; 
+   padding: 7px 13px; 
 }
 
 .accordion-table-breadcrumb .filter-buttons .filter-active{
@@ -44,14 +43,60 @@
 }
 
 .accordion-table-breadcrumb .swap-box{
-    padding: 5px;
-    width: 25%;
-    min-width: 310px;
+    width: 100%;
     background: #F3F1F9 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.accordion-table-breadcrumb .swap-box .swapto{
+    padding-top: 2px;
+    font: normal normal medium 22px/26px Gilroy ☞;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    font-size: 22px;
+}
+
+.accordion-table-breadcrumb .swap-box .swap-date{
+    margin-top: 5px;   
+}
+
+.accordion-table-breadcrumb .swap-box .swap-icon{
+    padding: 8px 12px;
+    color: #204463;
+    font-size: 30px;
+}
+
+.accordion-table-breadcrumb .search-box{
+    width: 100%;
+    background: #F3F1F9 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 5px;
+}
+
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    background-color: #F3F1F9;
+    border: none;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    background-color: #F3F1F9;
 }
 
 /* Accordion breadcrumb css ends */
@@ -65,7 +110,7 @@
 
 .table-accordion-item {
     border: none;
-    background: #FAFAFC 0% 0% no-repeat;
+    background: #FFFFFF 0% 0% no-repeat;
     box-sizing: border-box;
 }
 

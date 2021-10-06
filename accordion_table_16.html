@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/accordion_table_16.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Accordion table page</title>
 </head>
 
@@ -77,14 +79,43 @@
         <div class="card page-wrapper">
             <div class="accordion-table-breadcrumb">
                 <nav aria-label="breadcrumb ">
-                  <div class="filter-buttons">
-                      <a href="#" class="filter-active">PCR</a>
-                      <a href="#">Vaccine</a>
-                      <a href="#">Booster</a>
-                  </div>
-                  <div class="swap-box">
-                      <p class="swapto">Swap to</p>
-                  </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="filter-buttons">
+                                <a href="#" class="filter-active">PCR</a>
+                                <a href="#">Vaccine</a>
+                                <a href="#">Booster</a>
+                            </div>
+                        </div>
+                        <div class="col-1">
+
+                        </div>
+                        <div class="col-4">
+                            <div class="swap-box">
+                                <p class="swapto">Swap to</p>
+
+                                <div class="form-group">
+                                    <input type="date" class="form-control swap-date">
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-exchange swap-icon"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-1">
+
+                        </div>
+                        <div class="col-3">
+                            <div class="search-box">
+                                <!-- Actual search box -->
+                            <div class="form-group has-search">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control" placeholder="ID/Name/Phone/Date">
+                            </div>
+                            </div>
+                        </div>
+                    </div>                 
                 </nav>
             </div>            
             <div class="accordion" id="accordionExample">
