@@ -10,14 +10,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="table-cal col-md-12">
+        <div class="row col-md-12">
+            <div class="table-cal">
                 <div class="cal-main">
+                    <h1 class="cal-header">Manpwoer Schedule</h1>
                     <div class="cal-body ">
                         <div class="month">August 2021</div>
                         <table class="calender_14 col-lg-8 col-md-8 col-sm-8 col-xs-1">
                             <tr class="cal-tr">
-                                <td class="cal-td"> <button class="cal-btn"> Sat </button> </td>
+                                <td class="cal-td"> <button class="cal-btn" > Sat </button> </td>
                                 <td class="cal-td"> <button class="cal-btn"> Sun </button> </td>
                                 <td class="cal-td"> <button class="cal-btn"> Mon </button> </td>
                                 <td class="cal-td"> <button class="cal-btn"> Tue </button> </td>
@@ -83,6 +84,39 @@
         
                         </table>
                     </div>
+
+                    <div class="cal-slot row ">
+                        <div class="cal-morning-slot">
+                            <p class="morning">Morning Slot</p>
+                            <div class="cal-morn-in">
+                                <input type="text" class="cal-morn-in-left" placeholder="9:45 AM"> -
+                                <input type="text" class="cal-morn-in-left" placeholder="12:00 PM">
+                            </div>
+                            <p class="cal-footer">Working period: 545 Minutes</p>
+                        </div>
+
+                        <div class="cal-day-slot">
+                            <p class="day">Day Slot</p>
+                            <div class="cal-day-in">
+                                <input type="text" class="cal-morn-day-right" placeholder="9:45 AM"> -
+                                <input type="text" class="cal-morn-day-right" placeholder="12:00 PM">
+                            </div>
+                            <p class="cal-footer">Working period: 135 Minutes</p>
+
+                        </div>
+                        
+                        <div class="cal-min-slot">
+                            <p class="day">Day Slot</p>
+                            <div class="cal-day-in">
+                                <input type="text" class="cal-morn-day-right" placeholder="9:45 AM"> -
+                                <input type="text" class="cal-morn-day-right" placeholder="12:00 PM">
+                            </div>
+                            <p class="cal-footer">Working period: 135 Minutes</p>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
