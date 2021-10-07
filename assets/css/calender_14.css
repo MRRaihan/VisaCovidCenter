@@ -105,7 +105,6 @@
     background-color: #EFEDF9;
     width: 40%;
     border-radius: 10px;
-    margin-left: 28px;
     box-shadow: 0 0  0 2px rgba(175, 198, 242, 0.227);
 }
 .day{
@@ -182,7 +181,7 @@
 .cal-service-slot {
     width: 60%;
     margin-left: -50px;
-    margin-top: 20px;
+    margin-top: 50px;
    
 }
 .cal-mx-x{
