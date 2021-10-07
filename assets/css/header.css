@@ -1,3 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FAFAFC 0% 0% no-repeat;
+    box-sizing: border-box;
+}
+
 /*header section start*/
 .header__logo{
     width: 60px;
