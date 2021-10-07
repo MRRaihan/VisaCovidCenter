@@ -1,8 +1,4 @@
-.vsx{
-    width: 900px;
-    justify-content: center;
-    align-items: center;
-}
+
 .cal-main{
     width: 100%;
     padding: 40px;
@@ -306,5 +302,19 @@
     -o-border-radius: 10px;
 }
 
+.cal-left-l{
+    border: none;
+}
 
 
+.cal-right-r{
+    border: none;
+}
+
+.cal-left-l i{
+    font-size: 15px;
+}
+
+.cal-right-r i{
+    font-size: 15px;
+}
