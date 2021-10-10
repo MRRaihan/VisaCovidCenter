@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/user_profile_26.css">
+    <link rel="stylesheet" href="assets/css/user_profile_27.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- owl carousel related link Starts -->
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+    <!-- owl carousel related link Ends -->
 
     <title>User Profile</title>
 </head>
@@ -103,18 +111,51 @@
                     <div class="profile-other-info">
                         <div class="card payment-method-card">
                             <div class="card-body">
-                                <h2>Payment Status</h2>
-                                <button class="btn btn-danger status-btn">UNPAID</button>
+                                <h2 class="mb-5">Payment Status</h2>
+                                <div class="profile-details row">
+                                    <div class="col-6">
+                                        <p>PCR Test fee</p>
+                                        <h4>Total</h4>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <p>$9.99</p>
+                                        <h4>$13.97</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="card liveness-card">
+                        <div class="card payment-method-card">
                             <div class="card-body">
-                                <h2>Liveness</h2>
-                                <button class="btn btn-primary liveness-take-btn bg-liveness-1st">Taken with client's device</button>
-                                <button class="btn btn-info liveness-take-btn bg-liveness-2nd">Take now with this device</button>
+                                <h2 class="mb-5">Payment method</h2>
+                                <div class="payment-method-lists">
+                                    <div id="owl-demo" class="owl-carousel owl-theme">
+                                        <div class="item"><img src="assets/payment-method/bkash.png" alt="Owl Image">
+                                        </div>
+                                        <div class="item"><img src="assets/payment-method/nagad.png" alt="Owl Image">
+                                        </div>
+                                        <div class="item"><img src="assets/payment-method/rocket.png" alt="Owl Image">
+                                        </div>
+                                        <div class="item"><img src="assets/payment-method/upay.png" alt="Owl Image">
+                                        </div>
+                                        <div class="item"><img src="assets/payment-method/visa.png" alt="Owl Image">
+                                        </div>
+                                        <div class="item"><img src="assets/payment-method/bank.png" alt="Owl Image">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="payment-checkbox">
+                            <input type="checkbox" class="checkbox">
+                            <label>Payment received</label>
+                        </div>
+
+                        <div class="">
+                            <button type="button" class="btn btn-primary full-width-button-box">Payment confirmed</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -135,6 +176,17 @@
     <!-- Footer Ends -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                items: 4,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+            });
+        });
+    </script>
 </body>
 
 </html>
