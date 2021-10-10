@@ -68,25 +68,35 @@ body {
     color: #707070;
 }
 
-.profile .payment-method-card {
-    width: 50%;
-    box-shadow: 5px 5px 20px #445DFF1A;
-    border-radius: 15px;
-    opacity: 1;
+.profile .test-completed-box {
+    width: 100%;
     padding: 10px;
 }
 
-.profile .payment-method-card .status-btn {
-    margin-top: 10px;
-    background: #DF4C4C 0% 0% no-repeat padding-box;
-    opacity: 1;
-    padding: 8px 12px;
-    font: normal normal 600 28px/34px Gilroy ☞;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    border-radius: 7px;
+.profile .test-completed-box .tast-completed-image{
+    width: 100%;
 }
 
+.profile .profile-other-info .task-heading{
+    text-align: left;
+    font: normal normal medium 40px/49px Gilroy ☞;
+    letter-spacing: 0px;
+    color: #27B045;
+    opacity: 1;
+}
+
+.profile .profile-other-info .task-title{
+    margin-top: 15px;
+    text-align: left;
+    font: normal normal medium 24px/29px Gilroy ☞;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #707070;
+    opacity: 0.8;
+}
+
+/* 
 .profile .liveness-card {
     margin-top: 60px;
     width: 70%;
@@ -96,15 +106,7 @@ body {
     padding: 10px;
 }
 
-@media only screen and (max-width: 1050px) {
-    .profile .liveness-card {
-        width: 100%;
-    }
 
-    .profile .payment-method-card {
-        width: 100%;
-    }
-}
 
 .profile .liveness-card .liveness-take-btn {
     margin-top: 10px;
@@ -119,9 +121,9 @@ body {
 }
 
 .profile .liveness-card .bg-liveness-1st {
-   background: #4095C6 0% 0% no-repeat padding-box;
+    background: #4095C6 0% 0% no-repeat padding-box;
 }
 
 .profile .liveness-card .bg-liveness-2nd {
     background: #3BCFCF 0% 0% no-repeat padding-box;
-}
+} */
