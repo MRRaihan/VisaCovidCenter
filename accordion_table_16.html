@@ -78,6 +78,71 @@
     <div class="container py-4">
         <div class="card page-wrapper">
             <div class="accordion-table-breadcrumb">
+
+
+
+                <div class="accordion-table-header ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="accorion-link mt-2" id='active-div'>
+                                    <a href="#" class="accorion-btn active">PCR</a>
+                                    <a href="#" class="accorion-btn Vaccine">Vaccine</a>
+                                    <a href="#" class="accorion-btn">Booster</a>
+                                </div>
+
+
+                            </div>
+
+                            <div class="col-4">
+                                <div class="swap-bg  d-flex align-items-center justify-content-center">
+                                    <span class="text-muted">Swap to</span>
+                                    <input type="date" class="form-control h-25 w-50 mx-2">
+                                    <a class="btn swap-btn" href="#"><i class="fa fa-exchange swap-icon"></i></a>
+
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="search-box">
+
+                                    <div class="form-group">
+
+                                        <input type="text" class="form-control " placeholder="ID/Name/Phone/Date">
+                                        <span
+                                            class="fa fa-search form-control-feedback text-muted accordion-search"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- 
+                
                 <nav aria-label="breadcrumb ">
                     <div class="row">
                         <div class="col-3">
@@ -108,7 +173,7 @@
                         </div>
                         <div class="col-3">
                             <div class="search-box">
-                                <!-- Actual search box -->
+                               
                             <div class="form-group has-search">
                                 <span class="fa fa-search form-control-feedback"></span>
                                 <input type="text" class="form-control" placeholder="ID/Name/Phone/Date">
@@ -116,8 +181,8 @@
                             </div>
                         </div>
                     </div>                 
-                </nav>
-            </div>            
+                </nav> -->
+            </div>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item table-accordion-item">
                     <h2 class="accordion-header" id="headingOne">
@@ -335,6 +400,12 @@
             </div>
         </div>
     </footer>
+    <script>
+        $('button').on('click', function () {
+            $('button').removeClass('selected');
+            $(this).addClass('selected');
+        });
+    </script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
 </body>
