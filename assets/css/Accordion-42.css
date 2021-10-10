@@ -270,7 +270,8 @@
     color: white;
 }
 .accordion-search{
-    position: absolute;
-    right: 8%;
-    top: 17%;
+    position: fixed;
+    right: 10%;
+    top: 15%;
+  
 }
