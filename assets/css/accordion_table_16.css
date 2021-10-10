@@ -238,3 +238,39 @@
 
 
 /* Page Wrapper design ends */
+
+
+ 
+
+
+.accorion-btn {
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    color: #00569F;
+    padding: 5px;
+    text-decoration: none;
+   font-weight: bold;
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active, .accorion-btn:hover {
+    background-color:#00569F;
+    color: white;
+    border-radius: 5px;
+
+  }
+.swap-bg{
+    background: #F3F1F9;
+    border-radius: 5px;
+}
+.swap-btn{
+    background: #00569F;
+    color: white;
+}
+.accordion-search{
+    position: absolute;
+    right: 8%;
+    top: 6%;
+}
