@@ -9,11 +9,11 @@
 
 /* Accordion breadcrumb css starts */
 
-.accordion-table-breadcrumb{
+.accordion-table-breadcrumb {
     margin-bottom: 25px;
 }
 
-.accordion-table-breadcrumb .filter-buttons{
+.accordion-table-breadcrumb .filter-buttons {
     padding: 5px;
     width: 100%;
     background: #F3F1F9 0% 0% no-repeat padding-box;
@@ -24,17 +24,17 @@
 
 }
 
-.accordion-table-breadcrumb .filter-buttons a{
-   text-decoration: none;
-   text-align: left;
-   font: normal normal 600 24px/29px Gilroy ☞;
-   letter-spacing: 0px;
-   color: #00569F;
-   opacity: 0.8;
-   padding: 7px 13px; 
+.accordion-table-breadcrumb .filter-buttons a {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal 600 24px/29px Gilroy ☞;
+    letter-spacing: 0px;
+    color: #00569F;
+    opacity: 0.8;
+    padding: 7px 13px;
 }
 
-.accordion-table-breadcrumb .filter-buttons .filter-active{
+.accordion-table-breadcrumb .filter-buttons .filter-active {
     background: #00569F 0% 0% no-repeat padding-box;
     box-shadow: 3px 3px 10px #1223BD1A;
     border-radius: 8px;
@@ -42,7 +42,7 @@
     color: #FFFFFF;
 }
 
-.accordion-table-breadcrumb .swap-box{
+.accordion-table-breadcrumb .swap-box {
     width: 100%;
     background: #F3F1F9 0% 0% no-repeat padding-box;
     border-radius: 10px;
@@ -51,7 +51,7 @@
     justify-content: center;
 }
 
-.accordion-table-breadcrumb .swap-box .swapto{
+.accordion-table-breadcrumb .swap-box .swapto {
     padding-top: 2px;
     font: normal normal medium 22px/26px Gilroy ☞;
     letter-spacing: 0px;
@@ -60,43 +60,22 @@
     font-size: 22px;
 }
 
-.accordion-table-breadcrumb .swap-box .swap-date{
-    margin-top: 5px;   
+.accordion-table-breadcrumb .swap-box .swap-date {
+    margin-top: 5px;
 }
 
-.accordion-table-breadcrumb .swap-box .swap-icon{
+.accordion-table-breadcrumb .swap-box .swap-icon {
     padding: 8px 12px;
     color: #204463;
     font-size: 30px;
 }
 
-.accordion-table-breadcrumb .search-box{
+.accordion-table-breadcrumb .search-box {
     width: 100%;
     background: #F3F1F9 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
     padding: 5px;
-}
-
-
-
-.has-search .form-control {
-    padding-left: 2.375rem;
-    background-color: #F3F1F9;
-    border: none;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-    background-color: #F3F1F9;
 }
 
 /* Accordion breadcrumb css ends */
@@ -239,10 +218,6 @@
 
 /* Page Wrapper design ends */
 
-
- 
-
-
 .accorion-btn {
     border: none;
     outline: none;
@@ -251,26 +226,23 @@
     color: #00569F;
     padding: 5px;
     text-decoration: none;
-   font-weight: bold;
-  }
-  
-  /* Style the active class, and buttons on mouse-over */
-  .active, .accorion-btn:hover {
-    background-color:#00569F;
+    font-weight: bold;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.breadcrumb-active,
+.accorion-btn:hover {
+    background-color: #00569F;
     color: white;
     border-radius: 5px;
+}
 
-  }
-.swap-bg{
+.swap-bg {
     background: #F3F1F9;
     border-radius: 5px;
 }
-.swap-btn{
+
+.swap-btn {
     background: #00569F;
     color: white;
-}
-.accordion-search{
-    position: absolute;
-    right: 8%;
-    top: 6%;
 }
