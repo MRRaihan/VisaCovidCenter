@@ -98,33 +98,32 @@ body {
     padding: 10px;
 }
 
+@media only screen and (max-width: 1050px) {
+    .profile .liveness-card {
+        width: 100%;
+    }
+
+    .profile .payment-method-card {
+        width: 100%;
+    }
+}
+
 .profile .liveness-card .liveness-take-btn {
+    /* padding: 10px; */
     margin-top: 10px;
     background: #4095C6 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
     padding: 8px 12px;
-    font: normal normal 600 28px/34px Gilroy ☞;
     letter-spacing: 0px;
     color: #FFFFFF;
+    font: normal normal medium 28px/34px Gilroy ☞;
 }
 
-.profile .profile-qr-para {
-    padding: 30px;
-    line-height: 15px;
-    text-align: justify;
-    font: normal normal 300 20px/30px Gilroy;
-    letter-spacing: 0px;
-    color: #707070;
-    opacity: 0.8;
+.profile .liveness-card .bg-liveness-1st {
+   background: #4095C6 0% 0% no-repeat padding-box;
 }
 
-.profile .logout-btn {
-    background: #00569F 0% 0% no-repeat padding-box;
-    box-shadow: 5px 5px 20px #445DFF1A;
-    border-radius: 10px;
-    opacity: 1;
-    padding: 10px 15px;
-    color: #FFFFFF;
-    font: normal normal 600 32px/39px Gilroy ☞;
+.profile .liveness-card .bg-liveness-2nd {
+    background: #3BCFCF 0% 0% no-repeat padding-box;
 }
