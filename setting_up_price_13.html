@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/account_9.css">
+    <link rel="stylesheet" href="assets/css/setting_up_price_13.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Account 9</title>
+    <title>Setting up price</title>
 </head>
 
 <body>
@@ -26,14 +26,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Volunteers</a>
+                        <a class="nav-link" aria-current="page" href="#">Volunteers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Registered</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link active" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Regular</a>
@@ -67,52 +67,80 @@
     </nav>
 </header>
 
-<div class="volunteers">
+<div class="setting_up_price py-5">
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body text-center">
-                        <img class="volunteers__image" src="assets/image/volunteer/img.png" alt="">
-                        <div class="volunteers__details">
-                            <h5 class="card-title volunteers__name">Jahid Hassan</h5>
-                            <h6>Vaccinator</h6>
-                            <h6>ID: 34085034</h6>
-                            <h6>Contact: 0350358038503</h6>
+        <div class="setting_up_price__body shadow-sm">
+            <div class="row setting_up_price__body__text">
+                <p>Setting up price</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-6 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="setting_up_price__card__head">
+                            <p>PCR Test</p>
+                        </div>
+                        <div class="card-body setting_up_price__card__body">
+                            <input type="text" name="pcr_normal" placeholder="300">
+                            <small>Regular</small>
                         </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <a class="btn btn-sm btn-success" href="#"><i class="far fa-edit"></i> Edit</a>
-                        <a class="btn btn-sm btn-danger" href="#"><i class="fas fa-trash-alt"></i> Delete</a>
-                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body text-center">
-                        <img class="volunteers__image" src="assets/image/volunteer/img_1.png" alt="">
-                        <div class="volunteers__details">
-                            <h5 class="card-title volunteers__name">Arafat Hossen</h5>
-                            <h6>Vaccinator</h6>
-                            <h6>ID: 34085034</h6>
-                            <h6>Contact: 0350358038503</h6>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="setting_up_price__card__head">
+                            <p>Vaccine</p>
+                        </div>
+                        <div class="card-body setting_up_price__card__body">
+                            <input type="text" name="pcr_normal" placeholder="1000">
+                            <small>Regular</small>
                         </div>
                     </div>
-                    <div class="card-footer text-center">
-                        <a class="btn btn-sm btn-success" href="#"><i class="far fa-edit"></i> Edit</a>
-                        <a class="btn btn-sm btn-danger" href="#"><i class="fas fa-trash-alt"></i> Delete</a>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="setting_up_price__card__head">
+                            <p>Booster</p>
+                        </div>
+                        <div class="card-body setting_up_price__card__body">
+                            <input type="text" name="pcr_normal" placeholder="1200">
+                            <small>Regular</small>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 shadow-sm">
-                    <div class="card-body volunteers__add">
-                        <a href="#" class="volunteers__add__icon">
-                            <i class="fas fa-user-plus"></i>
-                        </a>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="setting_up_price__card__head">
+                            <p>PCR Test</p>
+                        </div>
+                        <div class="card-body setting_up_price__card__body setting_up_price__card__premium">
+                            <i class="fas fa-star"></i>
+                            <input type="text" name="pcr_normal" placeholder="2000">
+                            <small>Premium</small>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-center volunteers__add__text"><h5>Add Trusted People</h5></small>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="setting_up_price__card__head">
+                            <p>Vaccine</p>
+                        </div>
+                        <div class="card-body setting_up_price__card__body setting_up_price__card__premium">
+                            <i class="fas fa-star"></i>
+                            <input type="text" name="pcr_normal" placeholder="3000">
+                            <small>Premium</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="setting_up_price__card__head">
+                            <p>Booster</p>
+                        </div>
+                        <div class="card-body setting_up_price__card__body setting_up_price__card__premium">
+                            <i class="fas fa-star"></i>
+                            <input type="text" name="pcr_normal" placeholder="3500">
+                            <small>Premium</small>
+                        </div>
                     </div>
                 </div>
             </div>
