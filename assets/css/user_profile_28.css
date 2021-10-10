@@ -28,6 +28,7 @@ body {
     box-shadow: 5px 5px 20px #445DFF1A;
     border-radius: 15px;
     opacity: 1;
+    margin-bottom: 70px;
 }
 
 .profile .profile-card .profile-card-image {
@@ -124,4 +125,71 @@ body {
 
 .profile .liveness-card .bg-liveness-2nd {
     background: #3BCFCF 0% 0% no-repeat padding-box;
+}
+
+
+
+
+
+
+
+.modal{
+    background-color:rgba(255, 255, 255, 0.871);
+}
+
+
+.mnp{
+    width: 15%;
+    background-color: white;
+    box-shadow: 5px 5px 20px #445DFF1A;
+}
+.close{
+    margin-right: 10px;
+}
+.icon-m{
+    color: #E14B5A;
+}
+.images_modal{
+    text-align: center;
+}
+.modal_img_pic{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.text_modal{
+    text-align: center;
+}
+
+
+.btn-footer{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.btn-m-p{
+    float: left;
+    width: 90px;
+    height:25px;
+    border: none;
+    background: none;
+    color: #E14B5A;
+   
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn-m-s{
+ float: right;
+ width: 90px;
+ height:25px;
+ border: none;
+
+ margin-right: 10px;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
 }
