@@ -24,6 +24,19 @@ p{
 .nav-item{
     font-weight: 700;
 }
+
+/* .btn {
+} */
+.active, .btn:hover {
+color: #6C63FF !important;
+font-weight: bold;
+
+
+}
+
+.active, .btn:focus{
+box-shadow: none;
+}
 .top-banner{
    
     background-image: url(../img/banner-2.png);
@@ -32,13 +45,7 @@ p{
     background-size: cover;
 }
 .download-btn{
-    /* background: #6C63FF 0% 0% no-repeat padding-box;
-    color: white;
-    outline: none;
-    border: none;
-    padding: 10px 20px 10px 20px;
-    border-radius: 25px;
-    font-size: 20px; */
+   
     background: #6C63FF;
     border: medium none;
     border-radius: 5px;
@@ -79,7 +86,10 @@ p{
       box-shadow: 0 0 0 10px rgba(232,76,61,0);
     }
   }
-
+  .wrapper{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
 
 /*================== service page start============================== */
 .line{
@@ -295,3 +305,24 @@ p{
       }
   }
  
+
+  /* footer start */
+  .footer-links{
+    list-style: none;
+  }
+  .footer-link{
+    text-decoration: none;
+  }
+  .footer-link:hover{
+    color: rgb(204, 203, 203) !important;
+  }
+ .form-width{
+   width: 60%;
+ }
+
+ .footer-section{
+ 
+  background:linear-gradient(0deg, rgba(0, 60, 151, 0.897), rgba(13, 28, 158, 0.5)), url(../img/kisspng-geometry-line-point-pattern-5b381ce6407d29.1724398415304040702642.png);
+  background-repeat: no-repeat;
+background-size: contain;
+ }

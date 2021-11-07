@@ -41,6 +41,4 @@ function makesvg(percentage, inner_text=""){
   
   }( jQuery ));
   
-  $(function () {
-       $('.circlechart').circlechart();
-  });
+ 
