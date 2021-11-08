@@ -38,5 +38,35 @@
 
 .tab-height{
     min-height: 100vh;
+  
     background-color:#DDE4EC;
 }
+
+.details-card{
+    width: 85%;
+}
+.details-card-info{
+    background-color: #D3FFE9;
+}
+.details-card-info2{
+    background-color: #E0E8FF;
+}
+
+.details-card-info3{
+    background-color: #D6F6FF;
+}
+
+.details-card-info4{
+    background-color: #FFDCF8;
+}
+hr.new3 {
+    border-top: 3px dotted red;
+  }
+  @media only screen and (max-width: 600px) {
+   .info-font{
+       font-size: 13px;
+   }
+   .tab-height{
+     min-height: 10;
+   }
+  }
